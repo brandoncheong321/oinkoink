@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-**lx#)7jc)6+=9_$s1p(6yip%!k!#6e-7ac%i4^99bgty-=91n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ec2-34-200-247-67.compute-1.amazonaws.com']
 LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'feed'
 LOGOUT_REDIRECT_URL = 'frontpage'
